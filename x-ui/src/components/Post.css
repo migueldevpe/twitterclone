@@ -37,17 +37,5 @@
         strong, span, p {
             font-size: .9rem;
         }
-
-        .post-content-footer {
-
-            button {
-                font-size: .8rem; 
-            }
-            
-            button svg {
-                height: 1.2rem;
-                width: 1.2rem;
-            }
-        }
     }
 }
