@@ -14,11 +14,9 @@
         width: 2rem;
         margin-left: .75rem;
     }
-
 }
 
 .main-nav {
-
     a {
         display: flex;
         align-items: center;

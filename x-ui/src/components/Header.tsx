@@ -13,7 +13,6 @@ export default function Header(props: PropHeader) {
   }, []);
 
     return (
-
         <header className='timeline-header flex items-center justify-between flex-row'>
             {props.tittle}
 
@@ -21,8 +20,7 @@ export default function Header(props: PropHeader) {
             <button onClick={toggleTheme} className='bttntheme'></button>
             <Sparkle />
             </aside>
-        </header>
-        
+        </header>        
     )
 
 }

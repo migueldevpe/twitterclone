@@ -1,14 +1,9 @@
-// import { ArrowClockwise, ChatCircle, Heart, type IconWeight } from 'phosphor-react'
-import './Post.css'
 import { Link } from 'react-router-dom'
-// import { useState } from 'react'
-import UserIMG from '../assets/user.png'
 import PostFooter from './PostFooter'
+import UserIMG from '../assets/user.png'
+import './Post.css'
 
 interface PostProps {
-    // userimg?: string;
-    // name: string;
-    // user: string;
     message: string,
 }
 

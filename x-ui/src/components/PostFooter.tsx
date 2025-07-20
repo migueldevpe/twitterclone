@@ -1,5 +1,6 @@
 import { ArrowClockwise, ChatCircle, Heart, type IconWeight } from 'phosphor-react'
 import { useState } from 'react'
+import './PostFooter.css'
 
 interface PropPostFooter {
     likes: number,
@@ -14,7 +15,6 @@ export default function PostFooter(props: PropPostFooter) {
 
     return (
         <>
-        
             <button type='button'>
                 <ChatCircle weight={chatWeigth} onMouseEnter={() => setChatWeigth('fill')} onMouseLeave={() => setChatWeigth('regular')}/>
                 {props.comments}

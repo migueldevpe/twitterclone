@@ -1,7 +1,7 @@
 import { Bell, BookmarkSimple, DotsThreeCircle, Envelope, FileText, Hash, House, User } from 'phosphor-react'
+import { NavLink } from 'react-router-dom'
 import X_Logo from '../assets/x-icon.svg'
 import './Sidebar.css'
-import { NavLink } from 'react-router-dom'
 
 export default function Sidebar() {
 

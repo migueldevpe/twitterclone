@@ -5,7 +5,7 @@ import './Default.css'
 export default function Default() {
 
     return (
-        <div className='layout w-full flex flex-row'>
+       <div className='layout w-full flex flex-row'>
 
         <Sidebar />
 
