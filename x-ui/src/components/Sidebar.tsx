@@ -36,11 +36,11 @@ export default function Sidebar() {
                 <FileText />
                 <span>Lists</span>
               </a>
-              <a href="" target='' rel=''>
+              <a href="https://br.linkedin.com/in/miguelsoaresabs" target='_blank' rel='noreferrer'>
                 <User />
                 <span>Profile</span>
               </a>
-              <a href="" target='' rel=''>
+              <a href="https://github.com/migueldevpe" target='_blank' rel='noreferrer'>
                 <DotsThreeCircle />
                 <span>More</span>
               </a>

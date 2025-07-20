@@ -9,9 +9,14 @@ export default function Timeline() {
     const [newPost, setNewPost] = useState('');
 
     const [posts, setTweets] = useState([
-        'testando',
-        'testando2',
-        'testando3'   
+        'Olá! Desenvolvi esse site com React.js e TypeScript, com a intenção de me aprofundar ainda mais para pegar experiência e aprendizado. Desse jeito, ficarei ainda mais confiante e treinado para desenvolver diversas aplicações com React.js e Tailwind CSS.',
+        'Sabia que você pode alterar o tema clicando no ícone de sol no canto superior direito do cabeçalho? Deixe de acordo com o que você achar melhor.',
+        "Faça o seu post, basta digitar e clicar em 'Post' ou Ctrl + Enter. (O post será com o meu perfil)",
+        '⬇⬇⬇⬇⬇',
+        'Desce',
+        'Desce mais um pouquinho',
+        'Só mais um pouquinho',
+        'Clique aqui!'
     ])
 
     function createNewPost(event: FormEvent) {

@@ -9,9 +9,10 @@ export default function Postage() {
     const [newAnswer, setNewAnswer] = useState('')
 
     const [answers, setAnswers] = useState([
-        'Concordo!',
-        'Muito massa meu!',
-        'Aí sim! Parabéns'
+        "Acesse meu LinkedIn clicando em 'Profile' ou no ícone de perfil na barra lateral à esquerda.",
+        "Acesse meu GitHub clicando em 'More' ou no ícone de mais na barra lateral à esquerda.",
+        "Deixe o seu comentário, basta escrever e clicar em 'Answer' ou Ctrl + Enter. (O comentário será com o meu perfil).",
+        'Para voltar a tela inicial, basta clicar em Home ou no ícone de casa, na parte superior esquerda, embaixo da logo do X (Twitter).'
     ])
 
     function createNewAnswer(event: FormEvent){
@@ -45,7 +46,7 @@ export default function Postage() {
 
             <Header tittle='Post'/>
 
-            <Post message='Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur consectetur consequatur illum dolorum dolorem culpa aperiam, magnam recusandae dignissimos maxime quas vitae nostrum ea rerum quae. Ad quidem possimus reiciendis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur consectetur consequatur illum dolorum dolorem culpa aperiam, magnam recusandae dignissimos maxime quas vitae nostrum ea rerum quae. Ad quidem possimus reiciendis.'/>
+            <Post message='Desenvolvi apenas para estudo, tem muitas coisas que ainda não estão funcional, como por exemplo, cada post ter sua aba de comentários. Mais pra frente pretendo ajeitar o que ainda não está funcional, porém, no momento atual, irei focar em estudar mais, para aprender de verdade.'/>
 
             <Separetor />
 
