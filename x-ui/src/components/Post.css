@@ -1,0 +1,72 @@
+.post {
+    padding: 1.25rem;
+    border-bottom: 1px solid var(--borders); 
+
+    .post-content p {
+        line-height: 1.25rem;
+    }
+
+    .user {
+        border-radius: 9999px;
+        height: 3rem;
+        width: 3rem;
+    }
+
+    .post-content-header span {
+        color: var(--u-buttons);
+    }
+
+    .post-content-footer {
+        margin-top: .25rem;
+
+        button {
+            display: flex;
+            align-items: center;
+            gap: .5rem;
+            font-size: .875rem; 
+            color: var(--u-buttons);
+            transition: color .3s ease-in-out;
+        }
+        
+        button:hover {
+            color: var(--u-buttons-hover);
+            transition: color .3s ease-in-out;
+        }
+
+        button svg {
+            height: 1.25rem;
+            width: 1.25rem;
+        }
+    }
+}
+
+@media (max-width: 425px) {
+.post {
+    
+    .post-content-header {
+        align-items: start;
+        flex-direction: column;
+    }
+
+    img {
+        height: 2.5rem !important;
+        width: 2.5rem !important;
+    }
+
+    strong, span, p {
+        font-size: .9rem;
+    }
+
+    .post-content-footer {
+
+        button {
+            font-size: .8rem; 
+        }
+        
+        button svg {
+            height: 1.2rem;
+            width: 1.2rem;
+        }
+    }
+}
+}

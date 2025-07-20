@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+    line-height: 1rem;
+    transition: color, background-color .3s ease-in-out, filter .3s ease-in-out;
+}
+
+:root {
+    --twitter-buttons: #eff3f4;
+    --text-color-w: #e7e9ea;
+    --color-back: #000000;
+    --borders: #2F3336;
+    --separetor: #121314;
+    --u-buttons: #71767b;
+    --u-buttons-hover: #91979c;
+    --sidebar-bttns-hover: #181818;
+    --bg-header: #00000020;
+    --logo-color: invert(1);
+}
+
+[data-theme="light"] {
+    --twitter-buttons: #000000;
+    --text-color-w: #000000;
+    --color-back: #EBEEF0;
+    --borders: #91979c;
+    --separetor: #56595c;
+    --u-buttons: #5B7083;
+    --u-buttons-hover: #444647;
+    --sidebar-bttns-hover: #d8d8d8;
+    --bg-header: #dbdbdb20;
+    --logo-color: invert(0);
+}
+
+body {
+    background-color: var(--color-back);
+    color: var(--text-color-w);
+}
+
+body, input, textarea, button {
+    font-family: Roboto, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+button {
+    cursor: pointer
+}
+
+a {
+    color: inherit;
+}

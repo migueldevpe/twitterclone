@@ -1,0 +1,10 @@
+.layout {
+    /* margin: 0 auto; */
+    max-width: 1000px;
+}
+
+.content {
+    position: relative;
+    border-left: 1px solid var(--borders);
+    border-right: 1px solid var(--borders);
+}

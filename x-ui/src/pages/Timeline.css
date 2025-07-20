@@ -1,0 +1,51 @@
+.new-post-form {
+    padding: 1.5rem 1.25rem;
+}
+
+.new-post-form label img {
+    height: 3rem;
+    width: 3rem;
+    border-radius: 999px;
+}
+
+.new-post-form label textarea {
+    flex: 1;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-top: .75rem;
+    resize: none;
+
+    &:focus {
+        outline: none;
+    }
+
+    &::placeholder {
+        color: var(--u-buttons);
+    }
+}
+
+.new-post-form button {
+    background-color: var(--twitter-buttons);
+    color: var(--color-back);
+    border-radius: 9999px;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    font-weight: 900;
+    margin-left: auto;
+    transition: filter .3s ease-in-out;
+
+    &:hover {
+        filter: brightness(.925);
+        transition: filter .3s ease-in-out;
+    }
+}
+
+@media (max-width: 425px) {
+    .new-post-form label textarea {
+        font-size: 1rem;
+    }
+
+    .new-post-form button {
+        font-size: .9rem;
+    }
+}
