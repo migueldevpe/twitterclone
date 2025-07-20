@@ -15,15 +15,15 @@ export default function PostFooter(props: PropPostFooter) {
 
     return (
         <>
-            <button type='button'>
+            <button title='Comentar' type='button'>
                 <ChatCircle weight={chatWeigth} onMouseEnter={() => setChatWeigth('fill')} onMouseLeave={() => setChatWeigth('regular')}/>
                 {props.comments}
             </button>
-            <button type='button'>
+            <button title='Repostar' type='button'>
                 <ArrowClockwise weight={repostWeigth} onMouseEnter={() => setRepostWeigth('fill')} onMouseLeave={() => setRepostWeigth('regular')}/>
                 {props.repost}
             </button>
-            <button type='button'>
+            <button title='Curtir' type='button'>
                 <Heart weight={likeWeigth} onMouseEnter={() => setLikeWeigth('fill')} onMouseLeave={() => setLikeWeigth('regular')}/>
                 {props.likes}
             </button>

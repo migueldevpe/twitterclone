@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import PostFooter from './PostFooter'
-import UserIMG from '../assets/user.png'
+import UserIMG from '../assets/user.webp'
 import './Post.css'
 
 interface PostProps {

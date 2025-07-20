@@ -1,4 +1,4 @@
-export function defineCurrentTheme(theme: "light" | "dark") {
+export function defineCurrentTheme(theme: "dark" | "light" ) {
 
   const bttnTheme = document.querySelector("button.bttntheme") as HTMLButtonElement | null;
 

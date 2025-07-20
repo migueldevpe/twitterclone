@@ -46,7 +46,7 @@ export default function Sidebar() {
               </a>
             </nav>
 
-            <button className='new-post flex justify-center' type='submit'>Post</button>
+            <button title='Postar' className='new-post flex justify-center' type='submit'>Post</button>
 
           </aside>
         </div>

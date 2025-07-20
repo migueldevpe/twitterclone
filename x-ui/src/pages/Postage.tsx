@@ -2,7 +2,7 @@ import { useState, type FormEvent, type KeyboardEvent } from 'react'
 import Header from '../components/Header'
 import Post from '../components/Post'
 import Separetor from '../components/Separetor'
-import UserIMG from '../assets/user.png'
+import UserIMG from '../assets/user.webp'
 import './Postage.css'
 
 export default function Postage() {
@@ -64,7 +64,7 @@ export default function Postage() {
                  ></textarea>
                 </label>
 
-                <button className='flex justify-center' type='submit'>Answer</button>
+                <button title='Responder' className='flex justify-center' type='submit'>Answer</button>
 
             </form>
 

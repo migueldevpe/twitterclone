@@ -17,7 +17,7 @@ export default function Header(props: PropHeader) {
             {props.tittle}
 
             <aside className='flex items-center flex-row gap-3'>
-            <button onClick={toggleTheme} className='bttntheme'></button>
+            <button title='Trocar tema' onClick={toggleTheme} className='bttntheme'></button>
             <Sparkle />
             </aside>
         </header>        
