@@ -2,6 +2,11 @@
     padding: 1.25rem;
     border-bottom: 1px solid var(--borders); 
 
+
+    &:hover {
+        background-color: var(--sidebar-bttns-hover);
+    }
+
     .post-content p {
         line-height: 1.25rem;
     }
