@@ -38,11 +38,11 @@ export default function Sidebar() {
               </a>
               <a href="https://br.linkedin.com/in/miguelsoaresabs" target='_blank' rel='noreferrer'>
                 <User />
-                <span>Profile</span>
+                <span>LinkedIn</span>
               </a>
               <a href="https://github.com/migueldevpe" target='_blank' rel='noreferrer'>
                 <DotsThreeCircle />
-                <span>More</span>
+                <span>GitHub</span>
               </a>
             </nav>
 
