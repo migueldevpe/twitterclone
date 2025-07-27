@@ -1,4 +1,4 @@
-export function defineCurrentTheme(theme: "light" | "dark" ) {
+export function defineCurrentTheme(theme: "dark" | "light" ) {
 
   const bttnTheme = document.querySelector("button.bttntheme") as HTMLButtonElement | null;
 
@@ -18,8 +18,8 @@ export function defineCurrentTheme(theme: "light" | "dark" ) {
 
 export function toggleTheme() {
 
-  const current = (localStorage.getItem("themeSystem") as "light" | "dark") || "light";
-  const next = current === "light" ? "dark" : "light";
+  const current = (localStorage.getItem("themeSystem") as "dark" | "light") || "dark";
+  const next = current === "dark" ? "light" : "dark";
   localStorage.setItem("themeSystem", next);
   defineCurrentTheme(next);
 
@@ -27,7 +27,7 @@ export function toggleTheme() {
 
 export function setupInitialTheme() {
 
-  const theme = (localStorage.getItem("themeSystem") as "light" | "dark") || "light";
+  const theme = (localStorage.getItem("themeSystem") as "dark" | "light") || "dark";
   defineCurrentTheme(theme);
   
 }
