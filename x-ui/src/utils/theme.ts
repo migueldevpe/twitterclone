@@ -1,4 +1,4 @@
-export function defineCurrentTheme(theme: "dark" | "light" ) {
+export function defineCurrentTheme(theme: "light" | "dark" ) {
 
   const bttnTheme = document.querySelector("button.bttntheme") as HTMLButtonElement | null;
 
@@ -9,10 +9,10 @@ export function defineCurrentTheme(theme: "dark" | "light" ) {
 
   document.documentElement.setAttribute("data-theme", theme);
 
-  if (theme === "light") {
-    bttnTheme.innerHTML = darkSvg;
-  } else {
+  if (theme === "dark") {
     bttnTheme.innerHTML = lightSvg;
+  } else {
+    bttnTheme.innerHTML = darkSvg;
   }
 }
 
