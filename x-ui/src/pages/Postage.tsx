@@ -9,8 +9,8 @@ export default function Postage() {
     const [newAnswer, setNewAnswer] = useState('')
 
     const [answers, setAnswers] = useState([
-        "Acesse meu LinkedIn clicando em 'Profile' ou no ícone de perfil na barra lateral à esquerda.",
-        "Acesse meu GitHub clicando em 'More' ou no ícone de mais na barra lateral à esquerda.",
+        "Acesse meu LinkedIn clicando em 'LinkedIn' ou no ícone de perfil na barra lateral à esquerda.",
+        "Acesse meu GitHub clicando em 'GitHub' ou no ícone de mais na barra lateral à esquerda.",
         "Deixe o seu comentário, basta escrever e clicar em 'Answer' ou Ctrl + Enter. (O comentário será com o meu perfil).",
         'Para voltar a tela inicial, basta clicar em Home ou no ícone de casa, na parte superior esquerda, embaixo da logo do X (Twitter).'
     ])
