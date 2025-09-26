@@ -7,7 +7,7 @@ import Sidebar from "../components/Sidebar";
 export default function Default() {
 
   return (
-    <div className='layout w-full flex flex-row'>
+    <div className='layout w-full grid'>
 
     <Sidebar />
 

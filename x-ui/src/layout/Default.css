@@ -1,4 +1,6 @@
 .layout {
+  grid-template-columns: 275px 1fr;
+
   max-width: 1000px;
 }
 
@@ -6,4 +8,10 @@
   position: relative;
   border-left: 1px solid var(--borders);
   border-right: 1px solid var(--borders);
+}
+
+@media (max-width: 768px) {
+  .layout {
+    grid-template-columns: 75px 1fr;
+  }
 }

@@ -1,59 +1,64 @@
 .answer-post-form {
-    align-items: center;
-    flex-direction: row;
-    padding: 1.5rem 1.25rem;
-    border-bottom: 1px solid var(--borders);
+  align-items: center;
+  flex-direction: row;
+  padding: 1.5rem 1.25rem;
+  border-bottom: 1px solid var(--borders);
 }
 
 .answer-post-form label {
-    align-items: center;
-    flex: 1;
+  align-items: center;
+  flex: 1;
 }
 
 .answer-post-form label img {
-    height: 3rem;
-    width: 3rem;
-    border-radius: 999px;
+  height: 3rem;
+  width: 3rem;
+  border-radius: 999px;
 }
 
 .answer-post-form label textarea {
-    flex: 1;
-    font-size: 1.25rem;
-    font-weight: 500;
-    margin-top: 1.25rem;
-    resize: none;
+  flex: 1;
+  font-size: 1.175rem;
+  font-weight: 700;
+  margin-top: 1.25rem;
+  resize: none;
 
-    &:focus {
-        outline: none;
-    }
+  &:focus {
+    outline: none;
+  }
 
-    &::placeholder {
-        color: var(--u-buttons);
-    }
+  &::placeholder {
+    color: var(--u-buttons);
+  }
 }
 
 .answer-post-form button {
-    background-color: var(--twitter-buttons);
-    color: var(--color-back);
-    border-radius: 9999px;
-    padding: 0.75rem 1.5rem;
-    font-size: 1rem;
-    font-weight: 900;
-    margin-left: auto;
-    transition: filter .3s ease-in-out;
+  background-color: var(--twitter-buttons);
+  color: var(--color-back);
+  border-radius: 9999px;
+  padding: 0.75rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 900;
+  margin-left: auto;
+  transition: filter .3s ease-in-out;
 
-    &:hover {
-        filter: brightness(.925);
-        transition: filter .3s ease-in-out;
-    }
+  &:hover {
+    filter: brightness(.925);
+    transition: filter .3s ease-in-out;
+  }
 }
 
 @media (max-width: 425px) {
-    .answer-post-form label textarea {
-        font-size: 1rem;
-    }
+  .answer-post-form label img {
+    height: 2.5rem;
+    width: 2.5rem;
+  }
 
-    .answer-post-form button {
-        font-size: .9rem;
-    }
+  .answer-post-form label textarea {
+    font-size: 1rem;
+  }
+
+  .answer-post-form button {
+    font-size: .9rem;
+  }
 }
