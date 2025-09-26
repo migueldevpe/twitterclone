@@ -7,7 +7,6 @@ import Post from '../components/Post'
 import Separetor from '../components/Separetor'
 import UserIMG from '../assets/user.webp'
 
-
 export default function Postage() {
   const [newAnswer, setNewAnswer] = useState('')
 
@@ -78,5 +77,5 @@ export default function Postage() {
 
     </main>
   )
-
+  
 }

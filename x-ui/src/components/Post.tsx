@@ -14,7 +14,6 @@ export default function Post(props: PostProps) {
   { comments: 5, repost: 2, likes: 10 }
   ];
 
-
   return (
     <Link to="/post" className='post flex flex-row gap-3'>
       <img className='user' src={UserIMG} alt="Imagem do Usuário" />
