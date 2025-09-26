@@ -1,4 +1,4 @@
-import { Bell, BookmarkSimple, DotsThreeCircle, Envelope, FileText, Hash, House, Pencil, User } from 'phosphor-react'
+import { Bell, BookmarkSimple, Envelope, FileText, GithubLogo, Hash, House, LinkedinLogo, Pencil, /*User, DotsThreeCircle*/ } from 'phosphor-react'
 import { NavLink } from 'react-router-dom'
 import X_Logo from '../assets/x-icon.svg'
 import './Sidebar.css'
@@ -37,11 +37,11 @@ export default function Sidebar() {
             <span>Lists</span>
           </a>
           <a href="https://br.linkedin.com/in/miguelsoaresabs" target='_blank' rel='noreferrer'>
-            <User />
+            <LinkedinLogo />
             <span>LinkedIn</span>
           </a>
           <a href="https://github.com/migueldevpe" target='_blank' rel='noreferrer'>
-            <DotsThreeCircle />
+            <GithubLogo />
             <span>GitHub</span>
           </a>
         </nav>
