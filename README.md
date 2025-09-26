@@ -1,6 +1,6 @@
 # Uma parte do meu aprendizado em React.
 
-<img style="width: 100%;" src="https://raw.githubusercontent.com/migueldevpe/twitterclone/main/demonstra%C3%A7%C3%A3o.webp" alt="Demonstração do site"/> 
+<img style="width: 100%;" src="https://raw.githubusercontent.com/migueldevpe/twitterclone/refs/heads/main/demonstra%C3%A7%C3%A3o.webp" alt="Demonstração do site"/> 
 
 Este projeto é uma atualização da interface do antigo **Twitter** da Master Class — **Rocketseat**, para o novo **X**, com foco em estudos.
 Inclui funcionalidades como tema claro/escuro, implementadas apenas para aprendizado.
