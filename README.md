@@ -1,1 +1,1 @@
-Uma parte do meu aprendizado em React.js.
+Uma parte do meu aprendizado em React.
