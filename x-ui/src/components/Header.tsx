@@ -1,7 +1,8 @@
+import './Header.css'
+
 import { Sparkle } from 'phosphor-react'
 import { useEffect } from 'react'
 import { toggleTheme, setupInitialTheme } from "../utils/theme.ts";
-import './Header.css'
 
 interface PropHeader {
   tittle: string

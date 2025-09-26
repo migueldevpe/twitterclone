@@ -1,9 +1,12 @@
+import './Postage.css'
+
 import { useState, type FormEvent, type KeyboardEvent } from 'react'
+
 import Header from '../components/Header'
 import Post from '../components/Post'
 import Separetor from '../components/Separetor'
 import UserIMG from '../assets/user.webp'
-import './Postage.css'
+
 
 export default function Postage() {
   const [newAnswer, setNewAnswer] = useState('')

@@ -3,7 +3,7 @@
   scroll-behavior: smooth;
   padding: 0;
   margin: 0;
-  line-height: 1rem;
+  line-height: 1;
   transition: color .3s ease-in-out, background-color .3s ease-in-out, filter .3s ease-in-out;
 }
 
@@ -36,6 +36,7 @@
 body {
   background-color: var(--color-back);
   color: var(--text-color-w);
+  min-width: 320px;
 }
 
 body, input, textarea, button {

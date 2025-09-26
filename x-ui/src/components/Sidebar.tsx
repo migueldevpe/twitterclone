@@ -1,7 +1,9 @@
+import './Sidebar.css'
+
 import { Bell, BookmarkSimple, Envelope, FileText, GithubLogo, Hash, House, LinkedinLogo, Pencil, /*User, DotsThreeCircle*/ } from 'phosphor-react'
 import { NavLink } from 'react-router-dom'
+
 import X_Logo from '../assets/x-icon.svg'
-import './Sidebar.css'
 
 export default function Sidebar() {
 

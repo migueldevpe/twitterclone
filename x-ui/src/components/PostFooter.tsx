@@ -1,6 +1,7 @@
+import './PostFooter.css'
+
 import { ArrowClockwise, ChatCircle, Heart, type IconWeight } from 'phosphor-react'
 import { useState } from 'react'
-import './PostFooter.css'
 
 interface PropPostFooter {
   likes: number,
