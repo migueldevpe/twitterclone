@@ -46,6 +46,9 @@
 }
 
 .new-post {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: var(--twitter-buttons);
     color: var(--color-back);
     border-radius: 9999px;
@@ -55,6 +58,12 @@
     font-weight: 900;
     transition: filter .3s ease-in-out;
 
+    svg {
+      display: none;
+      height: 2rem;
+      width: 2rem;
+    }
+
     &:hover {
         filter: brightness(.925);
         transition: filter .3s ease-in-out;
@@ -62,8 +71,17 @@
 }
 
 @media (max-width: 768px) {
-    .main-nav span, .new-post {
+    .main-nav span, .new-post span {
         display: none;
+    }
+
+    .new-post {
+      width: max-content;
+      padding: .5rem;
+
+      svg {
+        display: block;
+      }
     }
 
     .sidebar-fixed {

@@ -1,4 +1,4 @@
-import { Bell, BookmarkSimple, DotsThreeCircle, Envelope, FileText, Hash, House, User } from 'phosphor-react'
+import { Bell, BookmarkSimple, DotsThreeCircle, Envelope, FileText, Hash, House, Pencil, User } from 'phosphor-react'
 import { NavLink } from 'react-router-dom'
 import X_Logo from '../assets/x-icon.svg'
 import './Sidebar.css'
@@ -46,7 +46,7 @@ export default function Sidebar() {
               </a>
             </nav>
 
-            <button title='Postar' className='new-post flex justify-center' type='submit'>Post</button>
+            <button title='Postar' className='new-post flex justify-center' type='submit'><Pencil /><span>Post</span></button>
 
           </aside>
         </div>
