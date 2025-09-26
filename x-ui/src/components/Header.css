@@ -1,23 +1,23 @@
 .timeline-header {
-    background-color: var(--bg-header);
-    backdrop-filter: blur(.1rem);
-    position: sticky;
-    top: 0;
-    font-size: 1.25rem;
-    font-weight: 700;
-    padding: 1.5rem 1.25rem;
-    border-bottom: 1px solid var(--borders);
+  background-color: var(--bg-header);
+  backdrop-filter: blur(.1rem);
+  position: sticky;
+  top: 0;
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding: 1.5rem 1.25rem;
+  border-bottom: 1px solid var(--borders);
 }
 
 .timeline-header aside svg {
-    color: var(--twitter-buttons);
-    height: 1.5rem;
-    width: 1.5rem;    
+  color: var(--twitter-buttons);
+  height: 1.5rem;
+  width: 1.5rem;    
 }
 
 @media (max-width: 425px) {
-    .timeline-header {
-        font-size: 1.2rem;
-        padding: 1.5rem 1.25rem; 
-    }
+  .timeline-header {
+    font-size: 1.2rem;
+    padding: 1.5rem 1.25rem; 
+  }
 }

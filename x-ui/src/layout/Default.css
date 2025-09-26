@@ -1,9 +1,9 @@
 .layout {
-    max-width: 1000px;
+  max-width: 1000px;
 }
 
 .content {
-    position: relative;
-    border-left: 1px solid var(--borders);
-    border-right: 1px solid var(--borders);
+  position: relative;
+  border-left: 1px solid var(--borders);
+  border-right: 1px solid var(--borders);
 }

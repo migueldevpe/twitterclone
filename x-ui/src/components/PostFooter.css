@@ -1,29 +1,29 @@
 button[type='button'] {
-    display: flex;
-    align-items: center;
-    gap: .5rem;
-    font-size: .875rem; 
-    color: var(--u-buttons);
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  font-size: .875rem; 
+  color: var(--u-buttons);
+  transition: color .3s ease-in-out;
+
+  &:hover {
+    color: var(--u-buttons-hover);
     transition: color .3s ease-in-out;
+  }
 
-    &:hover {
-        color: var(--u-buttons-hover);
-        transition: color .3s ease-in-out;
-    }
-
-    svg {
-        height: 1.25rem;
-        width: 1.25rem;
-    }
+  svg {
+    height: 1.25rem;
+    width: 1.25rem;
+  }
 }
 
 @media (max-width: 425px) {
-    button[type='button'] {
-        font-size: .8rem; 
+  button[type='button'] {
+    font-size: .8rem; 
 
-        svg {
-            height: 1.2rem;
-            width: 1.2rem;
-        }
+    svg {
+      height: 1.2rem;
+      width: 1.2rem;
     }
+  }
 }

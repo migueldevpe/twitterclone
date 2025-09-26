@@ -5,20 +5,20 @@ import Default from "./layout/Default";
 
 export const router = createBrowserRouter([
 
-    {
+  {
+    path: '/',
+    element: <Default />,
+    children: [
+      {
         path: '/',
-        element: <Default />,
-        children: [
-            {
-                path: '/',
-                element: <Timeline />
-            },
+        element: <Timeline />
+      },
 
-            {
-                path: '/post',
-                element: <Postage />
-            },
-        ]
-    }
-    
+      {
+        path: '/post',
+        element: <Postage />
+      },
+    ]
+  }
+  
 ])

@@ -2,8 +2,8 @@ import './Separetor.css'
 
 export default function Separetor() {
 
-    return (
-        <div className='separetor'/>
-    )
+  return (
+    <div className='separetor'/>
+  )
 
 }

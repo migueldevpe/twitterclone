@@ -1,46 +1,44 @@
 .post {
-    padding: 1.25rem;
-    border-bottom: 1px solid var(--borders); 
+  padding: 1.25rem;
+  border-bottom: 1px solid var(--borders); 
 
+  &:hover {
+    background-color: var(--sidebar-bttns-hover);
+  }
 
-    &:hover {
-        background-color: var(--sidebar-bttns-hover);
-    }
+  .post-content p {
+    line-height: 1.25rem;
+  }
 
-    .post-content p {
-        line-height: 1.25rem;
-    }
+  .user {
+    border-radius: 9999px;
+    height: 3rem;
+    width: 3rem;
+  }
 
-    .user {
-        border-radius: 9999px;
-        height: 3rem;
-        width: 3rem;
-    }
+  .post-content-header span {
+    color: var(--u-buttons);
+  }
 
-    .post-content-header span {
-        color: var(--u-buttons);
-    }
-
-    .post-content-footer {
-        margin-top: .25rem;
-    }
+  .post-content-footer {
+    margin-top: .25rem;
+  }
 }
 
 @media (max-width: 425px) {
-    .post {
-        
-        .post-content-header {
-            align-items: start;
-            flex-direction: column;
-        }
-
-        img {
-            height: 2.5rem !important;
-            width: 2.5rem !important;
-        }
-
-        strong, span, p {
-            font-size: .9rem;
-        }
+  .post {
+    .post-content-header {
+      align-items: start;
+      flex-direction: column;
     }
+
+    img {
+      height: 2.5rem !important;
+      width: 2.5rem !important;
+    }
+
+    strong, span, p {
+      font-size: .9rem;
+    }
+  }
 }

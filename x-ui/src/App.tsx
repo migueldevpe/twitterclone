@@ -6,7 +6,7 @@ export default function App() {
 
   return (
     <div className='flex justify-center'>
-          <RouterProvider router={router} />
+      <RouterProvider router={router} />
     </div>
   )
 

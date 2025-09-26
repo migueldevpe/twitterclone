@@ -12,15 +12,15 @@ export default function Header(props: PropHeader) {
     setupInitialTheme();
   }, []);
 
-    return (
-        <header className='timeline-header flex items-center justify-between flex-row'>
-            {props.tittle}
+  return (
+    <header className='timeline-header flex items-center justify-between flex-row'>
+      {props.tittle}
 
-            <aside className='flex items-center flex-row gap-3'>
-            <button title='Trocar tema' onClick={toggleTheme} className='bttntheme'></button>
-            <Sparkle />
-            </aside>
-        </header>        
-    )
+      <aside className='flex items-center flex-row gap-3'>
+      <button title='Trocar tema' onClick={toggleTheme} className='bttntheme'></button>
+      <Sparkle />
+      </aside>
+    </header>        
+  )
 
 }

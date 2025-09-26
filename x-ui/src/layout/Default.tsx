@@ -4,15 +4,15 @@ import './Default.css'
 
 export default function Default() {
 
-    return (
-       <div className='layout w-full flex flex-row'>
+  return (
+    <div className='layout w-full flex flex-row'>
 
-        <Sidebar />
+    <Sidebar />
 
-        <div className='content w-full' >
-            <Outlet />
-        </div>
-      </div>
-    )
+    <div className='content w-full' >
+      <Outlet />
+    </div>
+  </div>
+  )
 
 }
